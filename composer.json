@@ -1,0 +1,19 @@
+{
+    "name": "appventus/taiga-bundle",
+    "type": "symfony-bundle",
+    "description": "Taiga PHP SDK Symfony integration",
+    "keywords": ["Taiga", "SDK", "Symfony", "REST"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leny Bernard",
+            "email": "leny@appventus.com",
+            "homepage": "http://appventus.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "TaigaBundle\\": ""
+        }
+    }
+}
