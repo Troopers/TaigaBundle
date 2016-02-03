@@ -11,6 +11,11 @@
             "homepage": "http://appventus.com"
         }
     ],
+    "require": {
+        "php":                      "^5.5.9",
+        "symfony/framework-bundle": "^2.7",
+        "taiga/php-sdk":            "^0.1"
+    },
     "autoload": {
         "psr-4":{
             "TaigaBundle\\": ""
