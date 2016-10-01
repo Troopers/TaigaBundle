@@ -11,18 +11,13 @@ Installation with Composer
 -------------------------------------------------
 A composer.json file is available in the repository and it has been referenced on packagist. 
 
-The installation with Composer is easy, reliable : 
-Step 1 - Add the Taiga SDK as a dependency in your composer.json file as follow :
-```json
-    "require": {
-        ...
-        "troopers/taiga-bundle": "^0.1"
-    },
-```
+Step 1 - Require it with Composer
 
-Step 2 - Update your dependencies with Composer
+    php composer.phar require troopers/taiga-bundle:^0.1 --update-with-dependencies
 
-    php composer.phar update troopers/taiga-bundle
+Step 2 - Declare the bundle in your `AppKernel.php`
+
+    new TaigaBundle\TaigaBundle(),
 
 Configuration
 -------------------------------------------------
@@ -38,7 +33,7 @@ taiga:
 ```
 
 
-Examples
+Some use examples
 -------------------------------------------------
 
 ###get Taiga API service
@@ -52,6 +47,14 @@ Examples
     $projects = $taiga->projects->getList([
         'member' => $taiga->users->getMe()->id
     ]);
+```
+
+###get project's sprints (milestones)
+
+```php
+    $sprints[$project->name] = $taiga->milestones->getList(
+        ['project' => $project->id]
+    );
 ```
 
 ###get projects stats
