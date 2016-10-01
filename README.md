@@ -1,6 +1,9 @@
+[![Troopers](https://cloud.githubusercontent.com/assets/618536/18787530/83cf424e-81a3-11e6-8f66-cde3ec5fa82a.png)](http://troopers.agency)
+
+
 TaigaBundle
 =================================================
-TaigaBundle help to use the [Taiga PHP SDK](https://github.com/AppVentus/taiga-php-sdk) to work with
+TaigaBundle helps to use the [Taiga PHP SDK](https://github.com/Troopers/taiga-php-sdk) to work with
 [Taiga REST API](https://taigaio.github.io/taiga-doc/dist/api.html).
 
 
@@ -13,13 +16,13 @@ Step 1 - Add the Taiga SDK as a dependency in your composer.json file as follow 
 ```json
     "require": {
         ...
-        "appventus/taiga-bundle": "^0.1"
+        "troopers/taiga-bundle": "^0.1"
     },
 ```
 
 Step 2 - Update your dependencies with Composer
 
-    php composer.phar update appventus/taiga-bundle
+    php composer.phar update troopers/taiga-bundle
 
 Configuration
 -------------------------------------------------
@@ -67,4 +70,4 @@ TaigaBundle and taiga/php-sdk are distributed under MIT license, see LICENSE fil
 Contacts
 -------------------------------------------------
 Report bugs or suggest features using
-[issue tracker at GitHub](https://github.com/AppVentus/TaigaBundle/issues).
+[issue tracker at GitHub](https://github.com/Troopers/TaigaBundle/issues).

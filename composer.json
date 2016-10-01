@@ -1,5 +1,5 @@
 {
-    "name": "appventus/taiga-bundle",
+    "name": "troopers/taiga-bundle",
     "type": "symfony-bundle",
     "description": "Taiga PHP SDK Symfony integration",
     "keywords": ["Taiga", "SDK", "Symfony", "REST"],
@@ -7,8 +7,8 @@
     "authors": [
         {
             "name": "Leny Bernard",
-            "email": "leny@appventus.com",
-            "homepage": "http://appventus.com"
+            "email": "leny@troopers.email",
+            "homepage": "http://troopers.agency"
         }
     ],
     "require": {
