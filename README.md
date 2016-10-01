@@ -57,6 +57,15 @@ Some use examples
     );
 ```
 
+###get sprint's user stories
+
+```php
+    $userStories = $taiga->userStories->getList(
+        ['milestone' => $sprint->id]
+    );
+```
+
+
 ###get projects stats
 
 ```php
